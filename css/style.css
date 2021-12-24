@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;700&display=swap');
+
+body {
+    background-image: url(../bg.png);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: left;
+}
+
+.tab {
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.tab a {
+    margin-right: 2rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: 0.2rem 0.2rem 0 1px #FE818B;
+    transition:all 0.1s;
+    text-shadow: 0.05rem 0.05rem#FE818B;
+}
+.tab a:hover {
+    box-shadow: 0.5rem 0.5rem 0 1px #FE818B;
+}
+
+.box {
+    width: 60rem;
+    height: 35rem;
+    box-shadow: 0.2rem 0.2rem 0 1px #FE818B;
+    background-color: white;
+    transition:all 0.1s;
+}
+
+.box:hover {
+    box-shadow: 1rem 1rem 0 1px #FE818B;
+}
+
+.box h1,h2,h3 {
+    transition: all 0.2s;
+}
+
+.box:hover h1,h2,h3 {
+    text-shadow: 0.1rem 0.1rem#FE818B;
+}
+
+.grid_main {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1rem;
+}
+
+#main img {
+    width: 250px;
+    height: 250px;
+    transition:all 0.1s;
+    box-shadow: 0.2rem 0.2rem 0 1px #FE818B;
+}
+
+#main img:hover {
+    box-shadow: 0.5rem 0.5rem 0 1px #FE818B;
+}
+
+#main div {
+    margin: 1rem 1rem;
+}
+
+.right {
+    justify-self: center;
+    text-align: center;
+}
+
+.grid_link {
+    display:grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+#link h1 {
+    justify-self: center;
+    align-self: center;
+}
+
+#link ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    column-gap: 1rem;
+}
+
+#link li {
+    text-align: center;
+    transition-duration: 0.2s;
+    padding: 0 0.2rem;
+}
+
+#link li p {
+    color: transparent;
+    transition: all 0.5s;
+}
+
+#link li:hover {
+    background-color: #d8a7f967;
+    padding-top: 0.2rem;
+    padding-bottom: 2rem;
+    color: black;
+}
+
+#link li:hover p {
+    color: black;
+}
+
+.inactive {
+    display: none;
+}
