@@ -54,7 +54,7 @@ a {
     transition: all 0.2s;
 }
 
-.box:hover h1,h2,h3 {
+.box:hover h1, .box:hover h2, .box:hover h3 {
     text-shadow: 0.1rem 0.1rem#FE818B;
 }
 
@@ -123,6 +123,8 @@ a {
 #link li:hover p {
     color: black;
 }
+
+
 
 .inactive {
     display: none;
