@@ -18,10 +18,9 @@ function poggies_selector() {
 
     let numberOfPoggies = 3;
     var poggies = []
-    for (let i = 1; i < numberOfPoggies+1; i++) {
+    for (let i = 1; i <= numberOfPoggies; i++) {
         poggies.push("poggies/"+ i +".png");
     }
-    // var poggies = ["poggies/1.png", "poggies/2.png", "poggies/3.png"];
     var poggies = pickRandom(poggies);
     document.getElementById("poggies").setAttribute("src", poggies);
 }
