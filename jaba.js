@@ -25,4 +25,9 @@ function poggies_selector() {
     document.getElementById("poggies").setAttribute("src", poggies);
 }
 
+function copy(){
+    navigator.clipboard.writeText("lavish#1529");
+}
+
+
 poggies_selector()
