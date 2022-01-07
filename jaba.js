@@ -16,7 +16,7 @@ function display(classnamehaha){
 
 function poggies_selector() {
 
-    let numberOfPoggies = 4;
+    let numberOfPoggies = 5;
     var poggies = []
     for (let i = 1; i <= numberOfPoggies; i++) {
         poggies.push("poggies/"+ i +".png");

@@ -12,6 +12,7 @@ body {
     font-family: 'IBM Plex Serif', serif;
     text-align: left;
     overflow: hidden;
+    background-color: #cf6b74;
 }
 
 .tab {
