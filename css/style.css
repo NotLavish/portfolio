@@ -13,6 +13,7 @@ body {
     text-align: left;
     overflow: hidden;
     background-color: #cf6b74;
+    line-height: 2;
 }
 
 .tab {
