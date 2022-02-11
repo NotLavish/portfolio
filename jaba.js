@@ -10,7 +10,6 @@ function display(classnamehaha){
     let clicked = document.getElementById(classnamehaha);
     clicked.classList.remove("inactive");
     clicked.classList.add("active");
-    
 }
 
 
@@ -27,6 +26,7 @@ function poggies_selector() {
 
 function copy(){
     navigator.clipboard.writeText("lavish#1529");
+    alert("Discord tag coppied!")
 }
 
 
